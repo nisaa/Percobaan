@@ -13,9 +13,10 @@ int main(int argc, char *argv[])
   
   //input
   kembali:
+  textcolor(YELLOW);
+  gotoxy(16,1); printf("Program Menghitung Nilai Akhir Mahasiswa\n");
+  gotoxy(16,2); printf("========================================\n\n");
   textcolor(WHITE);
-  gotoxy(25,1); printf("Program Menghitung Nilai Akhir\n");
-  gotoxy(25,2); printf("==============================\n\n");
   printf("Masukkan nama Anda \t= "); fflush(stdin); gets(nama);
   printf("Masukkan nilai Absen \t= "); scanf("%f",&absen);
   printf("Masukkan nilai Tugas \t= "); scanf("%f",&tugas);
